@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.container{
+width: 500px;
+height: 150vh;
+border: 1px solid red;
+position: absolute;
+/* left: 0; */
+top: 0;
+left: 0;
+}
+.container>div{
+    height: 100px;
+    /* width: 100px; */
+    
+}
+.bayo{
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+.kunle{
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+.ola{
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100px;
+    z-index: 30;
+}
+.me{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.you{
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+    
+}
+.jola{
+    background-color: salmon;
+    position: absolute;
+    right: 30%;
+}
+.ade{
+    background-color: hotpink;
+    position: absolute;
+    right: 50%;
+}

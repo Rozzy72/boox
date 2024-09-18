@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 60px;
+             
+        }
+        td,td{
+            text-align: center;
+            
+        }
+        table{
+            width: 500px;
+            /* padding: 30px; */
+        }
+        .display{
+            background-color: hsl(180, 100%, 50%);
+        }
+        .not{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <td>8:15-9:20</td>
+            <td>8:00-9:40</td>
+            <td>8:15-9:20</td>
+            <td>8:00-9:40</td>
+            <td>8:15-9:20</td>
+            <td rowspan="3">8:30-12:00</td>
+        </tr>
+
+        <tr>
+            <td>9:35-10:40</td>
+            <td>9:55-11:35</td>
+            <td>9:35-10:40</td>
+            <td>9:55-11:35</td>
+            <td>9:35-10:40</td>
+        </tr>
+        
+        <tr>
+            <td>10:55-12:00</td>
+            <td rowspan="2" class="display">11:35-1:30<br>NO CLASSES</td>
+            <td>10:55-12:00</td>
+            <td rowspan="2" class="display">11:35-1:30<br>NO CLASSES</td>
+            <td>10:55-12:00</td>
+        </tr>
+
+        <tr>
+            <td>12:15-1:20</td>
+            <td>12:15:-1:20</td>
+            <td>12:15-1:20</td>
+            <td rowspan="3">1:00-4:30</td>
+        </tr>
+
+        <tr>
+            <!-- <td>1:35-2:40</td> -->
+            <td>1:35-2:40</td>
+            <td>1:30-3:10</td>
+            <td>1:35-2:40</td>
+            <td>1:30-3:10</td>
+            <td>1:35-2:40</td>
+            
+           </tr>
+
+        <tr>
+            <td>2:55-4:35</td>
+            <td>3:25-5:00</td>
+            <td>2:56-4:35</td>
+            <td>3:25-5:00</td>
+            <td class="display">2:55-4:35<br>NO CLASSES</td>
+        </tr>
+
+        <tr>
+            <td>6:00-9:30</td>
+            <td>6:00-9:30</td>
+            <td>6:00-9:30</td>
+            <td>6:00-9:30</td>
+            <td>6:00-9:30</td>
+            <td class="not"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

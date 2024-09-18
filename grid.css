@@ -1,0 +1,39 @@
+*{
+    /* margin: 20px; */
+    padding: 0;
+}
+.box1{
+    border: 1px solid black;
+    width: 20vw;
+    /* height: 200px; */
+    background-color: green;
+}
+.box2{
+    border: 1px solid black;
+    width: 20vw;
+    height: 200px;
+    background-color: blue;
+}
+.box3{
+    border: 1px solid black;
+    width: 20vw;
+    /* height: 200px; */
+    background-color: yellow;
+}
+.box4{
+    border: 1px solid black;
+    width: 20vw;
+    /* height: 200px; */
+    background-color: brown;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    /* row-gap: 50px;
+    column-gap: 40px; */
+    justify-content: center;
+    gap: 40px 30px;
+    
+   
+}

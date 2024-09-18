@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+/* .pt{
+    font-family: "Playball", cursive;
+    color: #004d82;
+    text-indent: 20px;
+    font-size: large;
+    font-weight: 500px;
+    text-decoration: 2px green dotted;
+    text-shadow: 5px 5px 6px green;
+    line-height: 30px;
+    word-spacing: 50px; */
+    /* margin: 30px; */
+    /* first value is for x radium, the second is for the y radius
+    third is for blur radius and last is for color */
+    /* } */
+    .box{
+        border: 1px solid blue;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .box1{
+        background-color: aqua;
+        float: left;
+    }
+    .box2{
+        background-color: brown;
+        float: left;
+    }
+    .box3{
+        background-color: blue;
+        float: left;
+    }
+    /* .container{
+        float: right;
+    } */

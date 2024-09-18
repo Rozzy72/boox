@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .box{
+    border: 1px solid black;
+    padding: 0;
+} */
+
+.container {
+    /* height: 100vh;
+    /* display: flex; */
+    /* position: absolute; */
+    /* right: 40%; */
+    /* top: 30%; */
+    margin-bottom: 500px;
+    position: relative;
+    /* padding: 100px; */
+    display: flex;
+    padding: 150px;
+    /* border: 1px solid blue; */
+}
+
+.lang {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times, serif; */
+    font-size: 15px;
+    /
+}
+
+.spanish {
+    top: 20%;
+    right: 10%;
+}
+
+
+.english {
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.deutsch {
+    right: 2%;
+    top: 35%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+
+.py {
+    left: 2%;
+    top: 34%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.francais {
+    right: 0;
+    top: 47%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.espanol {
+    left: 0%;
+    top: 47%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.italio {
+    bottom: 30%;
+    left: 5%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.chinese {
+    bottom: 33%;
+    right: 1%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.portugues {
+    bottom: 20%;
+    left: 10%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.arabic {
+    bottom: 20%;
+    right: 10%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.pedia {
+    position: absolute;
+    top: 5%;
+    margin-left: 20px;
+}
+
+.font {
+     display: flex;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.f1 {
+    font-weight: 200px;
+    margin-top: -5%;
+    font-size: 30px;
+    
+
+}
+
+.f2 {
+    font-size: 20px;
+}
+
+.info {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    /* padding: 20px 50px; */
+    width: 450px;
+    height: 50px;
+}
+select{
+    position: absolute;
+    bottom: 5%;
+
+}
+/* .glass{
+    padding: 5px 5px;
+    border: none;
+    background-color: blue; */
+
+/* } */
+.gd{
+    display: flex;
+    
+    
+}
+button{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    bottom: 5%;
+    right: -5%;
+}
+.new{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 30px; */
+    background-color: aqua;
+    width: 100%;}
+.img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: start;
+    
+}
+hr{
+    /* width: 100vw; */
+}
+.dat{
+    display: flex;
+}
+.dat1{
+    display: flex;
+    /* background-color: aqua; */
+    /* width: 100%; */
+    flex-direction: column;
+}

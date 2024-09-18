@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+       .test,th,td{
+        border: 1px solid red;
+        border-collapse: collapse;
+         }
+       .good{
+        border: 1px solid blue;
+        background-color: brown;
+         }
+         .best{
+           border: 1px solid pink;
+           color: green;
+           background-color: tomato;
+         }
+         .fast{
+            border: 1px solid purple;
+            color: burlywood;
+            background-color: blue;
+         }
+         table{
+            width: 100%;
+         }
+         .age{
+            text-align: center;
+            color:purple;
+         }
+         .first{
+            color: blue;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+         }
+         .second{
+            color: green;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+         }
+         .color{
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <table class="test">
+        <tr>
+            <th colspan="4">Identity</th>
+        </tr>
+        <tr>
+            <th colspan="2">Name</th>
+            <!-- <th>First Name</th> -->
+            <th>Age</th>
+            <th>Best Color</th>
+        </tr>
+
+        
+
+        <tr>
+            <td class="first">Taiwo</td>
+            <td class="second">Abiola</td>
+            <td class="age">27</td>
+            <td class="color" rowspan="2">Red</td>
+        </tr>
+
+        <tr>
+            <td class="first">Adekunle</td>
+            <td class="second">Opeyemi</td>
+            <td class="age">25</td>
+            <!-- <td class="color">Teal</td> -->
+        </tr>
+        
+        <tr>
+            <td class="first">Alao</td>
+            <td class="second">Aishat</td>
+            <td class="age">28</td>
+            <td class="color">Green</td>
+        </tr>
+    </table>
+</html>

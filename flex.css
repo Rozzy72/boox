@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    /* animation-name: rozzy;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; */
+     /* animation-name: rozzy;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out; */
+     /* animation-iteration-count: infinite; */
+}
+/* @keyframes rozzy {
+    from{
+        background-color: brown;
+        transform: translateX(0);
+    }
+    to{
+        background-color: blue;
+        transform: translateX(1800px); */
+    /* } */
+   /* @keyframes rozzy {
+    from{
+        background-color: brown;
+        /* transform: scaleX(0); */
+        /* transform: rotateX(0); */
+        /* transform: translate(400px); */
+    /* } */
+    /* to{ */
+        /* background-color: darkblue; */
+        /* transform: scaleX(2); */
+        /* transform: rotate(360deg); */
+        /* transform: translate(400px); */
+    /* }
+   }  */
+     
+/* } */
+/* .box1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+ img{
+    /* filter: blur(5px); */
+    filter: grayscale(90%);
+ }  
+/* } */
+/* .box2{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+
+}
+.box3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.box4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}  */
+/* 
+translate:{x comes first which is vertical then y follows which is vertical}
+it will allow it move the way you want it to be
+scale:this makes your work bigger depending on how you want it.
+rotate
+skew:it slant your work
+/* matrix:{scaleX},skewY{},skewX{},scaleY{},translateX{},translsateY{} */
+.box:hover{
+    /* transform: translateX(100px); */
+    /* transform: translateY(200px); */
+    /* transition: all ease-in-out 1s; */
+    /* translate: 100px 300px; */
+    /* transform: scaleX(3); */
+    /* transform: scale(0.5); */
+    /* width: 500px; */
+    /* background-color: red; */
+    /* transform: skew(50deg); */
+    /* transform: skewY(50deg); */ 
+    /* transform: rotate(40deg); */
+    /* transform: rotate(360deg); */
+    /* transition: 1s; */
+    /* width: 500px;
+    transform: rotate(360deg); */
+    /* transform: matrix(1,2,4,2,5,5); */
+    /* /* transition-property: width; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition: property delay timing-function duration; */
+    
+}
+.box{
+    /* transition-property: background-color,width; */
+    transition-property: transform,background-color,width;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in;
+    
+    
+}

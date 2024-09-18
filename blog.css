@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    justify-content: start;
+}
+.logo{
+    display: flex;
+}
+.mlogo{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.img{
+    border-radius: 10px;
+}
+h2,p {
+    margin-left: 10px;
+}
+.box{
+    display: flex;
+    gap: 40px;
+    margin: 50px;
+}
+.date{
+    color: grey;
+}
+.word{
+    font-weight: 700px;
+    color: rgb(110, 71, 71);
+}
+body{
+    margin: 0;
+    /* width: 100vw; */
+}

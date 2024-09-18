@@ -1,0 +1,22 @@
+.log{
+    display: flex;
+    
+}
+.mlogo{
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.dash{
+    
+}
+.container{
+    display: flex;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
